@@ -1,0 +1,95 @@
+.MainGrid {
+    width: 100%;
+    height: 100%;
+    margin: 20 auto;
+}
+
+.MainBar {
+    width: 100%;
+    margin: 4px;
+}
+
+.imgContainer {
+    margin-bottom: 20px;
+    padding: 0px 15px;
+}
+
+.imgContainer img {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.imgContainer img:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+.catalog {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgContainer .tituloImg {
+    width: 200px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.imgContainer .tituloImg:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+.toolbarCatalog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.toolbarCatalog .filtro .button {
+    margin-left: 10px;
+}
+
+.toolbarCatalog .button svg {
+    margin-right: 6px;
+}
+
+.modalContainer {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.imgDetalle {
+    max-width: 100%;
+}
+
+.formularioDetalle {
+    display: grid;
+    padding: 0px 30px;
+}
+
+.campoFormulario {
+    margin-bottom: 20px !important;
+}
+
+.textoModalError {
+    font-size: 16px;
+    margin-top: 0px !important;
+}
+
+.modalCloseContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+}
